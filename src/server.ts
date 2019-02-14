@@ -15,7 +15,7 @@ app.use(cors());
 
 // Serve some static files from various folders. 
 app.use("/testform", express.static(__dirname + '/testform'));
-app.use("/uploads", express.static(__dirname + '/uploads'));
+app.use("/images", express.static(__dirname + '/images'));
 
 // Enable file upload functionality. 
 app.use(fileupload({ useTempFiles: true, tempFileDir: '/tmp/', safeFileNames: true, preserveExtension: true}));

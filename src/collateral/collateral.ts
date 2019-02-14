@@ -39,5 +39,5 @@ export class Collateral {
 
     getEmailAssetById(id: string): WebAsset {
         return Collateral.webassets.find(o => o.id === id);
-    }
+    } 
 }

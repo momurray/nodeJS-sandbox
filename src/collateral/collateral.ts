@@ -22,14 +22,14 @@ export class Collateral {
     private static webassets: WebAsset[] = [
         {
             id: "1", bannertitle: "Shop today", offerheader: "5% back over £50", longcopy: "Get 5% back in MyRewards for any spend over £50",
-            shortcopy: "5% for £50", logo100x50: "sonycs330.png", logo200x100: "sonycx330.png"
+            shortcopy: "5% for £50", logo100x50: "http://localhost:8080/uploads/sonycx330.png", logo200x100: "http://localhost:8080/uploads/sonycx330.png"
         }
     ];
 
     private static emailassets: EmailAsset[] = [
         {
             id: "1", bannertitle: "Shop today", offerheader: "5% back over £50", longcopy: "Get 5% back in MyRewards for any spend over £50",
-            shortcopy: "5% for £50", logo100x50: "sonycs330.png", logo200x100: "sonycx330.png"
+            shortcopy: "5% for £50", logo100x50: "http://localhost:8080/uploads/sonycx330.png", logo200x100: "http://localhost:8080/uploads/sonycx330.png"
         }
     ];
 
